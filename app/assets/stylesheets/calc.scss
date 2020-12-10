@@ -1,0 +1,50 @@
+// Place all the styles related to the index controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+h1 {
+    font-family: Monotype Corsiva;
+    font-size: 50px;
+    text-align: center;
+    color: black;
+}
+td {
+    text-align : center;
+}
+table {
+    border-collapse: collapse
+}
+.error, .tabletka, .form_ochka {
+    flex-direction: column;
+    font-family: Monotype Corsiva;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    background-color: deeppink;
+}
+body, html {
+    background-color: deeppink;
+    height: 100%;
+}
+p {
+    font-family: Monotype Corsiva;
+    font-size: 30px;
+    text-align: center;
+    color: black;
+}
+#butt {
+    justify-content: center;
+    height:75px;
+    width:75px;
+    background-color:white;
+    outline:none;
+    border-radius:10px; 
+    border:4px solid #ccc;
+}
+#butt:hover {
+    background: grey;
+}
+#butt:active {
+    background: black;
+    color: white;
+}

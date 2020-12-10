@@ -1,0 +1,10 @@
+<div class="form_ochka">
+    <%= form_with url: session_create_url, method: :post, local: true do |f| %>
+        <p><%= f.text_field :username, required: true %></p>
+        <p><%= f.password_field :password, required: true %></p>
+        <p><%= f.submit 'Enter', id: "butt" %></p>
+    <% end %>
+
+    <%= link_to 'Register', new_user_path %>
+    <%= link_to 'Check users', users_url %>
+</div>
