@@ -7,6 +7,6 @@ Rails.application.routes.draw do
   post 'session/create'
   get 'session/logout'
   root 'calc#input'
-  resources :users
+  resources :users, except: [:index, :show]
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
 end
