@@ -1,24 +1,5 @@
-# README
+Основная задача зачётной работы - продемонстрировать полученные знания в создании собственного веб-приложения.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Обязательные требования к программе:
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Для реализации использовать Ruby on Rails. Необходимо иметь контроллеры, обеспечивающие обработку запросов. Необходимо использовать модели для хранения данных в БД. Необходимо обеспечить аутентификацию пользователей. При реализации клиентской части необходимо применить код на языке Javascript и таблицы стилей CSS.
