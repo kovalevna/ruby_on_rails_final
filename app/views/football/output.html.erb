@@ -1,0 +1,11 @@
+<body>
+    <div class="tabletka">
+    <h1>Table of your records</h1>
+    <table border="3" width="50%" borderColor="black" align="center" style="font-size:30px; line-height  :40px">
+        <% @for_output.each do |x| %>
+                <tr >
+                    <th width="300px"><%= x[0] + ' ' + x[2] + ' ' + x[1] %><p><%= x[3] %></p></th>
+                </tr>
+        <% end %>
+    </table><%= link_to 'Back', input_url%></div>
+</body>
